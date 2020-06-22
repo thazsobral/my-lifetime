@@ -7,16 +7,27 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-  <header>
-    <h1>Quanto tempo de vida você têm?</h1>
-    <label for="date">Qual sua data de nascimento?</label>
-    <input type="date" name="date" id="date-of-birth" onchange="calculateLifetime()">
-  </header>
-  <main>
-    <div id="board"></div>
-  </main>
-
-  <script src="./scripts/script.js">
-  </script>
+    <header>
+      <h1>Quanto tempo de vida você têm?</h1>
+      <label for="date">Qual sua data de nascimento?</label>
+      <input type="date" name="date" id="date-of-birth" onchange="orchestrator()">
+    </header>
+    <main>
+      <div id="board"></div>
+      <div id="time-life-board">
+        Digite sua data de nascimento
+      </div>
+    </main>
+    <footer>
+      <a href="https://github.com/ThazSobral">
+        <img src="./statics/github.svg" alt="github">
+      </a>
+      <a href="https://www.linkedin.com/in/thalles-sobral-414322b6">
+        <img src="./statics/linkedin.svg" alt="linkedin">
+      </a>
+      <img src="./statics//gmail.svg" alt="email" title="thazsobral@gmail.com">
+    </footer>
+    <script src="./scripts/script.js">
+    </script>
   </body>
 </html>

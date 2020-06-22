@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebb9b9;
+}
+
+header {
+    border-bottom: solid 2px red;
+    padding: 2% 2% 2% 5%;
+    background-color: #eb5959;
+    color: #dedede;
+}
+
+main {
+    margin: 5% 0 5% 0;
+}
+
+main > #board {
+    margin: 0 5% 0 5%;
+    color: #383838;
+}
+
+main > #time-life-board {
+    margin: 5% 0 0 0;
+    padding: 3% 2% 3% 2%;
+    border: solid 2px red;
+    background-color: #eb5959;
+    color: #dedede;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2% 0 3% 0;
+    margin: 1% 0 2% 0;
+    border-top: solid 2px red;
+    background-color: #eb5959;
+    text-align: center;
+    color: #dedede;
+}
+
+footer > a {
+    text-decoration: none;
+}
+
+footer > img, a > img {
+    width: 5%;
+}
