@@ -28,6 +28,8 @@ main > #time-life-board {
     border: solid 2px red;
     background-color: #eb5959;
     color: #dedede;
+    text-align: center;
+    font-size: 20px;
 }
 
 footer {
